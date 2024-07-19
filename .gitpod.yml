@@ -1,0 +1,24 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  - name: install antora
+    init: echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
+    command: npm -i -D -E -g antora
+  - name: build site
+    command: antora --fetch antora-playbook.yml
+  - name: start local server
+    command: python -m http.server
+
+# List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
+ports:
+  - name: Frontend
+    description: Port 8000 for the frontend
+    port: 8000
+    onOpen: open-browser
+
+# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+# Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
+vscode:
+  extensions:
+    - hediet.vscode-drawio
+    - jebbs.plantuml
+    - asciidoctor.asciidoctor-vscode
