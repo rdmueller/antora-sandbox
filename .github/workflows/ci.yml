@@ -6,7 +6,7 @@ on:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
