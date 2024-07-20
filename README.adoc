@@ -3,3 +3,7 @@
 This is just a simple sandbox to play around with antora.
 
 Start it with gitpod https://gitpod.io#https://github.com/rdmueller/antora-sandbox and you will get a web based VS Code where antora is already installed and the initial playbook is launched in the browser.
+
+=== Some thoughts
+
+

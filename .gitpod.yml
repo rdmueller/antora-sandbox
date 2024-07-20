@@ -7,6 +7,8 @@ tasks:
     command: antora --fetch antora-playbook.yml
   - name: start local server
     command: python -m http.server
+  - name: just provide a fresh terminal
+    command: echo "your journey starts here"
 
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
