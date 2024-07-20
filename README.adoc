@@ -6,4 +6,7 @@ Start it with gitpod https://gitpod.io#https://github.com/rdmueller/antora-sandb
 
 === Some thoughts
 
+* used docToolchain to get some local templates setup:
+** ./dtcw downloadTemplate
+* read a bit further to get tabs isntalled without creating my own theme: https://github.com/asciidoctor/asciidoctor-tabs/blob/main/docs/use-with-antora.adoc#using-the-supplemental-ui[using the supplemental ui]
 
