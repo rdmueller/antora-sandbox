@@ -1,0 +1,17 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Build the Antora site
+
+on:
+  pull_request:
+
+jobs:
+  # Single deploy job since we're just deploying
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: install antora
+        run: npm install
+      - name: generateSite
+        run: npm run build

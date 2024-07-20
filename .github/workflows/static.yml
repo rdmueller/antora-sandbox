@@ -34,9 +34,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: install antora
-        run: npm i -D -E -g antora
+        run: npm install
       - name: generateSite
-        run: npx antora --fetch antora-playbook.yml
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
