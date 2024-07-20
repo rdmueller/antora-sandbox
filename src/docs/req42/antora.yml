@@ -1,0 +1,9 @@
+name: req42-template
+title: req42 Template
+version: latest
+start_page: index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    optimize-content: true

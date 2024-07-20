@@ -12,6 +12,12 @@ content:
   - url: ./
     start_path: src/docs/arc42
     branches: [HEAD]
+  - url: ./
+    start_path: src/docs/req42
+    branches: [HEAD]
+  - url: ./
+    start_path: src/docs/arc42-v0.5
+    branches: [HEAD]
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
@@ -47,6 +53,8 @@ ui:
         <div id="topbar-nav" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item" href="#">Home</a>
+            <a class="navbar-item" href="../../arc42-template/latest/">arc42</a>
+            <a class="navbar-item" href="../../req42-template/latest/">req42</a>
             <a class="navbar-item" href="https://doctoolchain.org">docToolchain</a>
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link" href="#">Products</a>

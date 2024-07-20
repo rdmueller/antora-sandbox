@@ -1,0 +1,9 @@
+name: arc42-template
+title: arc42 Template
+version: 0.5
+start_page: index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    optimize-content: true

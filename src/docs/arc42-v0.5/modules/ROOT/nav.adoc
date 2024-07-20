@@ -14,8 +14,6 @@
 
 * xref:08_concepts.adoc[08. Cross-cutting Concepts]
 
-** xref:subfolder/01_introduction_and_goals.adoc[08.1 Introduction]
-
 * xref:09_architecture_decisions.adoc[09. Architecture Decisions]
 
 * xref:10_quality_requirements.adoc[10. Quality Requirements]

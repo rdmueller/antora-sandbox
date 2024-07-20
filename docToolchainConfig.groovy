@@ -26,6 +26,7 @@ inputFiles = [
         //[file: 'doctoolchain_demo.adoc',       formats: ['html','pdf']],
         //[file: 'arc42-template.adoc',    formats: ['html','pdf']],
 	[file: 'arc42/modules/ROOT/pages/index.adoc', formats: ['html','pdf']],
+	[file: 'req42/modules/ROOT/pages/index.adoc', formats: ['html','pdf']],
 	/** inputFiles **/
 ]
 
@@ -40,6 +41,8 @@ inputFiles = [
 imageDirs = [
     'arc42/modules/ROOT/assets/images/.',
 	'arc42/modules/ROOT/assets/images/.',
+	'req42/modules/ROOT/assets/images/.',
+	'req42/modules/ROOT/assets/images/.',
 	/** imageDirs **/
 ]
 
