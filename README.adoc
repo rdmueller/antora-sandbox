@@ -20,3 +20,6 @@ A preview is available here: https://rdmueller.github.io/antora-sandbox/
 * top menu navigation has been modified through a partial ui configured in paybook: https://github.com/rdmueller/antora-sandbox/blob/main/antora-playbook.yml#L36
 
 * partial ui could also be configured in a folder: https://github.com/ahus1/antora-extensions-demo/tree/main/playbook/supplemental_ui/partials
+
+
+Rendered pages at https://rdmueller.github.io/antora-sandbox/arc42-template/latest/index.html
