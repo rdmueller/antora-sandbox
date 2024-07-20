@@ -17,3 +17,6 @@ A preview is available here: https://rdmueller.github.io/antora-sandbox/
 
 * read a bit further to get tabs installed without creating my own theme: https://github.com/asciidoctor/asciidoctor-tabs/blob/main/docs/use-with-antora.adoc#using-the-supplemental-ui[using the supplemental ui]
 
+* top menu navigation has been modified through a partial ui configured in paybook: https://github.com/rdmueller/antora-sandbox/blob/main/antora-playbook.yml#L36
+
+* partial ui could also be configured in a folder: https://github.com/ahus1/antora-extensions-demo/tree/main/playbook/supplemental_ui/partials
