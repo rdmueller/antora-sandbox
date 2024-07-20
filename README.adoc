@@ -4,9 +4,16 @@ This is just a simple sandbox to play around with antora.
 
 Start it with gitpod https://gitpod.io#https://github.com/rdmueller/antora-sandbox and you will get a web based VS Code where antora is already installed and the initial playbook is launched in the browser.
 
+A preview is available here: https://rdmueller.github.io/antora-sandbox/
+
 === Some thoughts
 
 * used docToolchain to get some local templates setup:
-** ./dtcw downloadTemplate
-* read a bit further to get tabs isntalled without creating my own theme: https://github.com/asciidoctor/asciidoctor-tabs/blob/main/docs/use-with-antora.adoc#using-the-supplemental-ui[using the supplemental ui]
++
+[source,bash]
+----
+./dtcw downloadTemplate
+----
+
+* read a bit further to get tabs installed without creating my own theme: https://github.com/asciidoctor/asciidoctor-tabs/blob/main/docs/use-with-antora.adoc#using-the-supplemental-ui[using the supplemental ui]
 
