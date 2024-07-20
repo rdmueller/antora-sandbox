@@ -2,7 +2,7 @@
 tasks:
   - name: install antora
     init: echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
-    command: npm -i -D -E -g antora
+    command: npm i -D -E -g antora
   - name: build site
     command: antora --fetch antora-playbook.yml
   - name: start local server

@@ -19,7 +19,7 @@ jobs:
       - name: setup
         run: chmod +x dtcw
       - name: install antora
-        run: npm -i -D -E -g antora
+        run: npm i -D -E -g antora
       - name: generateSite
         run: npx antora --fetch antora-playbook.yml
       - name: copyToPublic
